@@ -1,10 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Link } from 'react-router-dom'
-
 import reveillon from '../../img/reveillon.png'
 import chega_junto from '../../img/chega_junto.jpeg'
 import card1 from '../../img/cards/card1.jpeg'
+import card2 from '../../img/cards/card2.png'
 import styles from './Home.module.css'
 
 function Home() {
@@ -33,10 +32,10 @@ function Home() {
                 </div>
             </div>
             <div className={styles.cards}>
-                <Link className={styles.link} to="/"><img src={card1} className={styles.cardsImg} alt="card1" /></Link>
-                <Link className={styles.link} to="/"><img src={card1} className={styles.cardsImg} alt="card1" /></Link>
-                <Link className={styles.link} to="/"><img src={card1} className={styles.cardsImg} alt="card1" /></Link>
-                <Link className={styles.link} to="/"><img src={card1} className={styles.cardsImg} alt="card1" /></Link>
+                <img src={card1} className={styles.cardsImg} alt="card1" />
+                <img src={card2} className={styles.cardsImg} alt="card1" />
+                <img src={card1} className={styles.cardsImg} alt="card1" />
+                <img src={card1} className={styles.cardsImg} alt="card1" />
             </div>
         </div>
     )

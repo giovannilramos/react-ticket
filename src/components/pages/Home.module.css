@@ -21,19 +21,15 @@
     max-width: 980px;
     flex-wrap: wrap;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.link {
-    margin-bottom: 20px !important;
     margin: auto;
+    justify-content: space-around;
 }
 
 .cardsImg {
     border-radius: 5px;
     width: 297px;
     height: 180px;
+    margin-bottom: 20px;
 }
 
 .cards img:hover{
