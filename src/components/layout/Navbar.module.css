@@ -1,0 +1,35 @@
+.navbar {
+    width: 100%;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.itemNav {
+    padding: 18px;
+    display: inline-flex;
+}
+
+.rightNav {
+    width: 100%;
+    text-align: right;
+}
+
+.leftNav {
+    width: 100%;
+}
+
+.criarEvento {
+    color: rgb(252, 163, 17);
+    text-decoration: none;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 165, 219);
+}
