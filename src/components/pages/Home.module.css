@@ -25,13 +25,89 @@
     justify-content: space-around;
 }
 
-.cardsImg {
+.card1 {
+    background-image: url(https://dpz4c7q921os3.cloudfront.net/images/block/84a413f825f71f57b8f3a048179ebb20aa3730d3.jpeg);
     border-radius: 5px;
     width: 297px;
-    height: 180px;
     margin-bottom: 20px;
+    height: 180px;
+    background-position: center;
+    position: relative;
 }
 
-.cards img:hover{
-    background-color: black;
+.card2 {
+    background-image: url(https://dpz4c7q921os3.cloudfront.net/images/block/58deaa7f0f600211a9a20b955baf4ebc1524ddb4.png);
+    border-radius: 5px;
+    width: 297px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    position: relative;
+}
+
+.card3 {
+    background-image: url(https://dpz4c7q921os3.cloudfront.net/images/block/91a2f9f49c52204813794913cf549ab78696ea54.jpeg);
+    border-radius: 5px;
+    width: 297px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    position: relative;
+}
+
+.card4 {
+    background-image: url(https://dpz4c7q921os3.cloudfront.net/images/block/e3a09c33ea46a63f491244abefeec8daabec8e21.png);
+    border-radius: 5px;
+    width: 297px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    position: relative;
+}
+
+.card5 {
+    background-image: url(https://dpz4c7q921os3.cloudfront.net/images/block/52e9dff900383507c59075c88c46ed98249e866c.png);
+    border-radius: 5px;
+    width: 297px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    position: relative;
+}
+
+.card6 {
+    background-image: url(	https://dpz4c7q921os3.cloudfront.net/images/block/68531ffc3d5ebde5a4dabe9b6dc9b19b8c746e61.jpeg);
+    border-radius: 5px;
+    width: 297px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    position: relative;
+}
+
+.card7 {
+    background-image: url(	https://dpz4c7q921os3.cloudfront.net/images/block/d46b0234002399c9d7714f8990b66293fa6d644f.jpeg);
+    border-radius: 5px;
+    width: 297px;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    position: relative;
+}
+
+.h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-weight: 300;
+    color: white;
+    font-size: 19px;
 }

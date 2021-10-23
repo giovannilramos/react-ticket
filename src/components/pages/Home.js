@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from 'react-bootstrap/Carousel'
 
 import reveillon from '../../img/reveillon.png'
 import chega_junto from '../../img/chega_junto.jpeg'
-import card1 from '../../img/cards/card1.jpeg'
-import card2 from '../../img/cards/card2.png'
+import denis from '../../img/denis.jpeg'
 import styles from './Home.module.css'
 
 function Home() {
@@ -11,31 +11,39 @@ function Home() {
         <div>
             <div className={styles.carroselBg}>
                 <div className={styles.carrosel}>
-                    <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
-                        <div className="carousel-inner">
-                            <div className="carousel-item active" data-bs-interval="2000">
-                                <img src={reveillon} className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item" data-bs-interval="2000">
-                                <img src={chega_junto} className="d-block w-100" alt="..." />
-                            </div>
-                        </div>
-                        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                    <Carousel>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={reveillon}
+                            alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={chega_junto}
+                            alt="Second slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={denis}
+                            alt="Third slide"
+                            />
+                        </Carousel.Item>
+                    </Carousel>
                 </div>
             </div>
             <div className={styles.cards}>
-                <img src={card1} className={styles.cardsImg} alt="card1" />
-                <img src={card2} className={styles.cardsImg} alt="card1" />
-                <img src={card1} className={styles.cardsImg} alt="card1" />
-                <img src={card1} className={styles.cardsImg} alt="card1" />
+                <div className={styles.card1}><h3 className={styles.h3}>EVENTOS DE HOJE</h3></div>
+                <div className={styles.card2}><h3 className={styles.h3}>ATIVIDADES AO AR LIVRE</h3></div>
+                <div className={styles.card3}><h3 className={styles.h3}>DOAÇÕES</h3></div>
+                <div className={styles.card4}><h3 className={styles.h3}>FESTAS E BALADAS</h3></div>
+                <div className={styles.card5}><h3 className={styles.h3}>SHOWS E FESTIVAIS</h3></div>
+                <div className={styles.card6}><h3 className={styles.h3}>UNIVERSITÁRIO</h3></div>
+                <div className={styles.card7}><h3 className={styles.h3}>GASTRONOMIA</h3></div>
             </div>
         </div>
     )
